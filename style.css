@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: calc(100dvh - 5vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 72px;
+    background-color: black;
+    color: white;
+  }
+  
+  .hero_form {
+    width: 320px;
+    background-color: #34013fad;
+    border-radius: 8px;
+    padding: 24px;
+  }
+  
+  .hero_form input,
+  .hero_form label {
+    display: block;
+  }
+  
+  .hero_form h1 {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 16px;
+  }
+  
+  .hero_form input {
+    width: 100%;
+    height: 30px;
+    margin-top: 8px;
+    color: #342637;
+    padding-left: 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .hero_form label {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  
+  .hero_form button {
+    width: 100%;
+    height: 36px;
+    margin-top: 16px;
+    background-color: #142381;
+    color: #fafafa;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .hero_form button:hover {
+    box-shadow: 0px 0px 4px 4px #142381;
+  }
+
+  .hero_form input:focus {
+    outline: none;
+  }
+  
+  input.invalid {
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.151);
+    color: white;
+  }
+  
+  input.valid {
+    border: 2px solid green;
+    background-color: rgba(0, 128, 0, 0.182);
+    color: white;
+  }
+  
+  .hero_form div {
+    position: relative;
+  }
+  
+  .error {
+    position: absolute;
+    top: 105%;
+    font-size: 12px;
+    color: red;
+  }
+
+
+  .login {
+    width: 320px;
+    background-color: #34013fad;
+    border-radius: 8px;
+    padding: 24px;
+    display: none;
+  }
+  
+  .login input,
+  .login label {
+    display: block;
+  }
+  
+  .login h1 {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: 16px;
+  }
+  
+  .login input {
+    width: 100%;
+    height: 30px;
+    margin-top: 8px;
+    color: #342637;
+    padding-left: 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .login label {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  
+  .login button {
+    width: 100%;
+    height: 36px;
+    margin-top: 16px;
+    background-color: #142381;
+    color: #fafafa;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .login button:hover {
+    box-shadow: 0px 0px 4px 4px #142381;
+  }
+
+  .login input:focus {
+    outline: none;
+  }
+
+  .login div {
+    position: relative;
+  }
+  
+  .description{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  
+  a{
+    color: rgb(0, 132, 255);
+    outline: rgb(0, 132, 255);
+    cursor: pointer;
+  }
+
+  input.invalid {
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.151);
+    color: white;
+  }
+  
+  input.valid {
+    border: 2px solid green;
+    background-color: rgba(0, 128, 0, 0.182);
+    color: white;
+  }
+
+  header{
+    width: 100%;
+    height: 5vw;
+    background-color: burlywood;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline: 60px;
+  }
+
+  .headerName{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: auto;
+    cursor: pointer;
+  }

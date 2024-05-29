@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+        <header>
+          <span class="headerName"></span>
+        </header>
+
+        <section class="hero">
+            <form class="hero_form">
+              <h1>დარეგისტრირდი</h1>
+              <div>
+                <label for="name">სახელი</label>
+                <input required name="name" id="name" type="text" />
+              </div>
+              <div>
+                <label for="surname">გვარი</label>
+                <input required name="surname" id="surname" type="text" />
+              </div>
+              <div>
+                <label for="email">ელ. ფოსტა</label>
+                <input required name="email" id="email" type="email" />
+              </div>
+              <div>
+                <label for="password">პაროლი</label>
+                <input required name="password" id="password" type="password" />
+              </div>
+              <div>
+                <label for="confirm_password">გაიმეორე პაროლი</label>
+                <input required id="confirm_password" type="password" />
+              </div>
+    
+              <button>რეგისტრაცია</button>
+              <div class="description">
+                <span>უკვე დარეგისტრირდით?</span>
+                <a>ავტორიზაცია</a>
+              </div>
+            </form>
+
+              <form class="login">
+                  <h1>დაავტორიზირდი</h1>
+                  <div>
+                      <label for="email">ელ. ფოსტა</label>
+                      <input required name="email" id="email" type="email" />
+                    </div>
+                  <div>
+                      <label for="password">პაროლი</label>
+                      <input required name="password" id="password" type="password" />
+                    </div>
+          
+                    <button>ავტორიზაცია</button>
+              </form>
+
+            </section>
+</body>
+<script src="./script.js"></script>
+<script src="./error.js"></script>
+</html>
